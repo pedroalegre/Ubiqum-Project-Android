@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "597896297392",
+    "firebase_url": "https://ubiqum-project.firebaseio.com",
+    "project_id": "ubiqum-project",
+    "storage_bucket": "ubiqum-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597896297392:android:827e10646158d52a",
+        "android_client_info": {
+          "package_name": "com.ubiqumproject.ubiqumproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "597896297392-rmlmacmu556tkbg25loj77fr021mhbfu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQkMBVE0GrrtQ5NrcOl2q1HXCoRhmZJIk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
