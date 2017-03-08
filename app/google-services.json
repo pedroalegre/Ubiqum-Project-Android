@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "597896297392-ou8fo2p1id0io9tg2am0smv5efb033ts.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ubiqumproject.ubiqumproject",
+            "certificate_hash": "e68d9f4a76b705ccdb11be9652501b0f50cbb2ad"
+          }
+        },
+        {
           "client_id": "597896297392-rmlmacmu556tkbg25loj77fr021mhbfu.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "597896297392-rmlmacmu556tkbg25loj77fr021mhbfu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
