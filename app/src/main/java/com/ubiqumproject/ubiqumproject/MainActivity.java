@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+
+        setContentView(R.layout.activity_main);
 		mAuth = FirebaseAuth.getInstance();
 
 		mAuthListener = new FirebaseAuth.AuthStateListener() {
@@ -52,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
 
 						if(!task.isSuccessful()) {
 							Log.w(TAG, "signInWithEmail:failed", task.getException());
-							Toast.makeText(EmailPasswordActivity.this, R.string.auth_failed,
+							Toast.makeText(MainActivity.this, R.string.auth_failed,
 									Toast.LENGTH_SHORT).show();
 						}
 					}

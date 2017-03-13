@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Ubiqum project</string>
+	<string name="app_name">Ubiqum project</string>
+	<string name="auth_failed">Authentication failed</string>
 </resources>
