@@ -1,5 +1,6 @@
 package com.ubiqumproject.ubiqumproject;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
@@ -91,6 +92,10 @@ public class MainActivity extends AppCompatActivity implements
                             Log.w(TAG, "signInWithEmail:failed", task.getException());
                             Toast.makeText(MainActivity.this, R.string.auth_failed,
                                     Toast.LENGTH_SHORT).show();
+                        } else {
+                            Toast.makeText(MainActivity.this, R.string.auth_success,
+                                    Toast.LENGTH_SHORT).show();
+                            goToMessage();
                         }
                     }
                 });
@@ -124,5 +129,11 @@ public class MainActivity extends AppCompatActivity implements
         if (i == R.id.sign_in_button) {
             signIn(emailField.getText().toString(), passwordField.getText().toString());
         }
+    }
+
+    private void goToMessage() {
+        startActivity(new Intent(MainActivity.this, Message.class));
+        // Intent intent = new Intent(MainActivity.this, Message.class);
+
     }
 }

@@ -1,4 +1,6 @@
 <resources>
 	<string name="app_name">Ubiqum project</string>
 	<string name="auth_failed">Authentication failed</string>
+	<string name="auth_success">Authentication successful</string>
+	<string name="message_title">Messages screen</string>
 </resources>
