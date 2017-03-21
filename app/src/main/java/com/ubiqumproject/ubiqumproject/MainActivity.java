@@ -132,8 +132,7 @@ public class MainActivity extends AppCompatActivity implements
     }
 
     private void goToMessage() {
+        finish();
         startActivity(new Intent(MainActivity.this, Message.class));
-        // Intent intent = new Intent(MainActivity.this, Message.class);
-
     }
 }
